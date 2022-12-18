@@ -1,7 +1,8 @@
 import html2canvas from "html2canvas";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Image from "next/image";
+import { saveAs } from 'file-saver';
 
 export default function Six() {
 
@@ -29,18 +30,15 @@ export default function Six() {
     const [childMemberImg, setChildMemberImg] = useState("");
     const [childMemberName, setChildMemberName] = useState("");
 
+
+    const imgResult = useRef<HTMLDivElement>(null);
+
     const handleImageDownload = async () => {
         const element = document.getElementById("card");
         var canvas = await html2canvas(element as HTMLElement);
-        var data = canvas.toDataURL("image/jpg");
-        var link = document.createElement('a');
-
-        link.href = data;
-        link.download = 'tbz-style.jpg';
-
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+        canvas.toBlob((blob) => {
+            saveAs(blob as Blob, "tbz-style.jpg");
+        });
     };
 
 
@@ -54,7 +52,7 @@ export default function Six() {
                     <div className="p-2">
                         <p className="text-xs text-gray-900 font-light">라누타 @ranootaa</p>
                     </div>
-                    <div id="card" className="px-4 py-3 w-full grid grid-cols-3 items-center justify-center border-[1px] border-gray-900">
+                    <div ref={imgResult} id="card" className="px-4 py-3 w-full grid grid-cols-3 items-center justify-center border-[1px] border-gray-900 bg-white">
                         <button onClick={() => setShowChoiaeModal(true)} className="flex flex-col items-center p-4 space-y-2 cursor-pointer text-gray-600 hover:border-red-500 hover:text-red-500 justify-center">
                             <p className="text-gray-900 text-sm font-semibold">최애</p>
                             {
