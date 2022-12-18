@@ -60,9 +60,6 @@ export default function Six() {
                     <Link href="/" className="text-xl text-gray-900 font-medium"> ⬅️ </Link>
                 </div>
                 <div className="m-1 w-11/12 items-center justify-center">
-                    <div className="p-2">
-                        <p className="text-xs text-gray-900 font-light">라누타 @ranootaa</p>
-                    </div>
                     <div ref={imgResult} id="card" className="px-4 py-3 w-full grid grid-cols-3 items-center justify-center border-[1px] border-gray-900 bg-white">
                         <button onClick={() => setShowChoiaeModal(true)} className="flex flex-col items-center p-4 space-y-2 cursor-pointer text-gray-600 hover:border-red-500 hover:text-red-500 justify-center">
                             <p className="text-gray-900 text-sm font-semibold">최애</p>
@@ -148,6 +145,9 @@ export default function Six() {
                                     </svg>
                             }
                         </button>
+                        <div className="p-2">
+                            <p className="text-xs text-gray-900 font-light">라누타 @ranootaa</p>
+                        </div>
                     </div>
                 </div>
                 <button onClick={handleImageDownload} className="mt-5 bg-red-500 hover:bg-red-600 text-white py-2 px-4 border border-transparent rounded-3xl shadow-sm text-sm font-semibold focus:ring-2 focus:ring-offset-2 focus:ring-red-500 focus:outline-none">다운로드</button >
