@@ -6,18 +6,30 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-deploy": "next build && next export"
   },
   "dependencies": {
-    "@next/font": "13.0.7",
+    "@next/font": "^13.0.7",
+    "@tailwindcss/forms": "^0.5.3",
+    "@types/file-saver": "^2.0.5",
     "@types/node": "18.11.17",
     "@types/react": "18.0.26",
     "@types/react-dom": "18.0.9",
+    "autoprefixer": "^10.4.13",
+    "dom-to-image": "^2.6.0",
     "eslint": "8.30.0",
     "eslint-config-next": "13.0.7",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
     "next": "13.0.7",
+    "postcss": "^8.4.20",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "tailwindcss": "^3.2.4",
     "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "@types/dom-to-image": "^2.6.4"
   }
 }
