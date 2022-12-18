@@ -160,7 +160,7 @@ export default function Six() {
                                         <div className="grid grid-cols-3">
                                             {
                                                 [[1, "상연"], [2, "제이콥"], [3, "영훈"], [4, "현재"], [5, "주연"], [6, "케빈"], [7, "뉴"], [8, "큐"], [9, "주학년"], [10, "선우"], [11, "에릭"]].map((value, i) => (
-                                                    <button onClick={() => {
+                                                    <button key={i} onClick={() => {
                                                         setShowChoiaeModal(false)
                                                         setChoiaeMemberImg(`/images/tbz-${value[0]}.jpeg`)
                                                         setChoiaeMemberName(`${value[1]}`)
@@ -195,7 +195,7 @@ export default function Six() {
                                         <div className="grid grid-cols-3">
                                             {
                                                 [[1, "상연"], [2, "제이콥"], [3, "영훈"], [4, "현재"], [5, "주연"], [6, "케빈"], [7, "뉴"], [8, "큐"], [9, "주학년"], [10, "선우"], [11, "에릭"]].map((value, i) => (
-                                                    <button onClick={() => {
+                                                    <button key={i} onClick={() => {
                                                         setShowChaaeModal(false)
                                                         setChaaeMemberImg(`/images/tbz-${value[0]}.jpeg`)
                                                         setChaaeMemberName(`${value[1]}`)
@@ -230,7 +230,7 @@ export default function Six() {
                                         <div className="grid grid-cols-3">
                                             {
                                                 [[1, "상연"], [2, "제이콥"], [3, "영훈"], [4, "현재"], [5, "주연"], [6, "케빈"], [7, "뉴"], [8, "큐"], [9, "주학년"], [10, "선우"], [11, "에릭"]].map((value, i) => (
-                                                    <button onClick={() => {
+                                                    <button key={i} onClick={() => {
                                                         setShowFriendModal(false)
                                                         setFriendMemberImg(`/images/tbz-${value[0]}.jpeg`)
                                                         setFriendMemberName(`${value[1]}`)
@@ -265,7 +265,7 @@ export default function Six() {
                                         <div className="grid grid-cols-3">
                                             {
                                                 [[1, "상연"], [2, "제이콥"], [3, "영훈"], [4, "현재"], [5, "주연"], [6, "케빈"], [7, "뉴"], [8, "큐"], [9, "주학년"], [10, "선우"], [11, "에릭"]].map((value, i) => (
-                                                    <button onClick={() => {
+                                                    <button key={i} onClick={() => {
                                                         setShowCoupleModal(false)
                                                         setCoupleMemberImg(`/images/tbz-${value[0]}.jpeg`)
                                                         setCoupleMemberName(`${value[1]}`)
@@ -300,7 +300,7 @@ export default function Six() {
                                         <div className="grid grid-cols-3">
                                             {
                                                 [[1, "상연"], [2, "제이콥"], [3, "영훈"], [4, "현재"], [5, "주연"], [6, "케빈"], [7, "뉴"], [8, "큐"], [9, "주학년"], [10, "선우"], [11, "에릭"]].map((value, i) => (
-                                                    <button onClick={() => {
+                                                    <button key={i} onClick={() => {
                                                         setShowMarriageModal(false)
                                                         setMarriageMemberImg(`/images/tbz-${value[0]}.jpeg`)
                                                         setMarriageMemberName(`${value[1]}`)
@@ -335,7 +335,7 @@ export default function Six() {
                                         <div className="grid grid-cols-3">
                                             {
                                                 [[1, "상연"], [2, "제이콥"], [3, "영훈"], [4, "현재"], [5, "주연"], [6, "케빈"], [7, "뉴"], [8, "큐"], [9, "주학년"], [10, "선우"], [11, "에릭"]].map((value, i) => (
-                                                    <button onClick={() => {
+                                                    <button key={i} onClick={() => {
                                                         setShowChildModal(false)
                                                         setChildMemberImg(`/images/tbz-${value[0]}.jpeg`)
                                                         setChildMemberName(`${value[1]}`)
