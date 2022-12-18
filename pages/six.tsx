@@ -35,7 +35,10 @@ export default function Six() {
 
     const handleImageDownload = async () => {
         const element = document.getElementById("card");
-        var canvas = await html2canvas(element as HTMLElement);
+        var canvas = await html2canvas(element as HTMLElement, {
+            allowTaint: true,
+            useCORS: true,
+        });
         canvas.toBlob((blob) => {
             saveAs(blob as Blob, "tbz-style.jpg");
         });
