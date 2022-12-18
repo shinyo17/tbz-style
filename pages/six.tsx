@@ -1,7 +1,7 @@
 import html2canvas from "html2canvas";
 import Link from "next/link";
 import { useState } from "react";
-
+import Image from "next/image";
 
 export default function Six() {
 
@@ -60,7 +60,7 @@ export default function Six() {
                             {
                                 choiaeMemberImg !== "" && choiaeMemberName !== "" ?
                                     <div>
-                                        <img className="object-cover object-center rounded-md aspect-square" src={choiaeMemberImg} />
+                                        <Image alt="" width={100} height={100} className="object-cover object-center rounded-md aspect-square" src={choiaeMemberImg} />
                                         <p className="my-2 text-gray-900 text-xs font-bold">{choiaeMemberName}</p>
                                     </div>
                                     :
@@ -74,7 +74,7 @@ export default function Six() {
                             {
                                 chaaeMemberImg !== "" && chaaeMemberName !== "" ?
                                     <div>
-                                        <img className="object-cover object-center rounded-md aspect-square" src={chaaeMemberImg} />
+                                        <Image alt="" width={100} height={100} className="object-cover object-center rounded-md aspect-square" src={chaaeMemberImg} />
                                         <p className="my-2 text-gray-900 text-xs font-bold">{chaaeMemberName}</p>
                                     </div>
                                     :
@@ -88,7 +88,7 @@ export default function Six() {
                             {
                                 friendMemberImg !== "" && friendMemberName !== "" ?
                                     <div>
-                                        <img className="object-cover object-center rounded-md aspect-square" src={friendMemberImg} />
+                                        <Image alt="" width={100} height={100} className="object-cover object-center rounded-md aspect-square" src={friendMemberImg} />
                                         <p className="my-2 text-gray-900 text-xs font-bold">{friendMemberName}</p>
                                     </div>
                                     :
@@ -102,7 +102,7 @@ export default function Six() {
                             {
                                 coupleMemberImg !== "" && coupleMemberName !== "" ?
                                     <div>
-                                        <img className="object-cover object-center rounded-md aspect-square" src={coupleMemberImg} />
+                                        <Image alt="" width={100} height={100} className="object-cover object-center rounded-md aspect-square" src={coupleMemberImg} />
                                         <p className="my-2 text-gray-900 text-xs font-bold">{coupleMemberName}</p>
                                     </div>
                                     :
@@ -116,7 +116,7 @@ export default function Six() {
                             {
                                 marriageMemberImg !== "" && marriageMemberName !== "" ?
                                     <div>
-                                        <img className="object-cover object-center rounded-md aspect-square" src={marriageMemberImg} />
+                                        <Image alt="" width={100} height={100} className="object-cover object-center rounded-md aspect-square" src={marriageMemberImg} />
                                         <p className="my-2 text-gray-900 text-xs font-bold">{marriageMemberName}</p>
                                     </div>
                                     :
@@ -130,7 +130,7 @@ export default function Six() {
                             {
                                 childMemberImg !== "" && childMemberName !== "" ?
                                     <div>
-                                        <img className="object-cover object-center rounded-md aspect-square" src={childMemberImg} />
+                                        <Image alt="" width={100} height={100} className="object-cover object-center rounded-md aspect-square" src={childMemberImg} />
                                         <p className="my-2 text-gray-900 text-xs font-bold">{childMemberName}</p>
                                     </div>
                                     :
@@ -165,7 +165,7 @@ export default function Six() {
                                                         setChoiaeMemberImg(`/images/tbz-${value[0]}.jpeg`)
                                                         setChoiaeMemberName(`${value[1]}`)
                                                     }} className="flex flex-col items-center p-4 space-y-2 cursor-pointer justify-center">
-                                                        <img className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.jpeg`} />
+                                                        <Image alt="" width={100} height={100} className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.jpeg`} />
                                                         <p className="text-gray-900 text-sm font-semibold">{`${value[1]}`}</p>
                                                     </button>
                                                 ))
@@ -200,7 +200,7 @@ export default function Six() {
                                                         setChaaeMemberImg(`/images/tbz-${value[0]}.jpeg`)
                                                         setChaaeMemberName(`${value[1]}`)
                                                     }} className="flex flex-col items-center p-4 space-y-2 cursor-pointer justify-center">
-                                                        <img className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.jpeg`} />
+                                                        <Image alt="" width={100} height={100} className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.jpeg`} />
                                                         <p className="text-gray-900 text-sm font-semibold">{`${value[1]}`}</p>
                                                     </button>
                                                 ))
@@ -235,7 +235,7 @@ export default function Six() {
                                                         setFriendMemberImg(`/images/tbz-${value[0]}.jpeg`)
                                                         setFriendMemberName(`${value[1]}`)
                                                     }} className="flex flex-col items-center p-4 space-y-2 cursor-pointer justify-center">
-                                                        <img className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.jpeg`} />
+                                                        <Image alt="" width={100} height={100} className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.jpeg`} />
                                                         <p className="text-gray-900 text-sm font-semibold">{`${value[1]}`}</p>
                                                     </button>
                                                 ))
@@ -270,7 +270,7 @@ export default function Six() {
                                                         setCoupleMemberImg(`/images/tbz-${value[0]}.jpeg`)
                                                         setCoupleMemberName(`${value[1]}`)
                                                     }} className="flex flex-col items-center p-4 space-y-2 cursor-pointer justify-center">
-                                                        <img className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.jpeg`} />
+                                                        <Image alt="" width={100} height={100} className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.jpeg`} />
                                                         <p className="text-gray-900 text-sm font-semibold">{`${value[1]}`}</p>
                                                     </button>
                                                 ))
@@ -305,7 +305,7 @@ export default function Six() {
                                                         setMarriageMemberImg(`/images/tbz-${value[0]}.jpeg`)
                                                         setMarriageMemberName(`${value[1]}`)
                                                     }} className="flex flex-col items-center p-4 space-y-2 cursor-pointer justify-center">
-                                                        <img className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.jpeg`} />
+                                                        <Image alt="" width={100} height={100} className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.jpeg`} />
                                                         <p className="text-gray-900 text-sm font-semibold">{`${value[1]}`}</p>
                                                     </button>
                                                 ))
@@ -340,7 +340,7 @@ export default function Six() {
                                                         setChildMemberImg(`/images/tbz-${value[0]}.jpeg`)
                                                         setChildMemberName(`${value[1]}`)
                                                     }} className="flex flex-col items-center p-4 space-y-2 cursor-pointer justify-center">
-                                                        <img className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.jpeg`} />
+                                                        <Image alt="" width={100} height={100} className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.jpeg`} />
                                                         <p className="text-gray-900 text-sm font-semibold">{`${value[1]}`}</p>
                                                     </button>
                                                 ))
