@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "vercel-deploy": "next build && next export"
+    "vercel-deploy": "next build && next export",
+    "debug": "cross-env NODE_OPTIONS='--inspect' next dev"
   },
   "dependencies": {
     "@next/font": "^13.0.7",
