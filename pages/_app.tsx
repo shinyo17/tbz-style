@@ -66,11 +66,11 @@ export default function App({ Component, pageProps }: AppProps) {
           content="https://firebasestorage.googleapis.com/v0/b/bucketlistwithfirebase-e3efc.appspot.com/o/tbz-style.png?alt=media&token=5d37526f-bbde-4872-a0ae-8cf44830eadf" />
         <meta property="og:image:width" content="800" />
         <meta property="og:image:height" content="400" />
-        <meta property="og:url" content="svt-style.web.app" />
+        <meta property="og:url" content="https://tbz-style.vercel.app/" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:title" content="더보이즈 취향표" />
-        <meta property="twitter:url" content="svt-style.web.app" />
+        <meta property="twitter:url" content="https://tbz-style.vercel.app/" />
         <meta property="twitter:description" content="더보이즈 취향표" />
         <meta property="twitter:image"
           content="https://firebasestorage.googleapis.com/v0/b/bucketlistwithfirebase-e3efc.appspot.com/o/tbz-style.png?alt=media&token=5d37526f-bbde-4872-a0ae-8cf44830eadf" />
