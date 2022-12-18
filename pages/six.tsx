@@ -43,12 +43,9 @@ export default function Six() {
                 foreignObjectRendering: false,
             }).then((canvas) => {
                 canvas.toBlob((blob) => {
-                    console.log("asdfas");
-                    saveAs(blob as Blob, "tbz-style.jpg");
+                    saveAs(blob as Blob, "tbz-style");
                 });
             });
-
-
 
         } catch (error) {
             console.log(error)
