@@ -14,7 +14,7 @@ export default function Home() {
       </div>
       <div className="flex space-x-3">
         <Link href="/six" className="mt-5 bg-red-500 hover:bg-red-600 text-white py-2 px-4 border border-transparent rounded-3xl shadow-sm text-sm font-semibold focus:ring-2 focus:ring-offset-2 focus:ring-red-500 focus:outline-none">6문항 버전</Link >
-        <Link href="/eight" className="mt-5 bg-gray-500 hover:bg-gray-600 text-white py-2 px-4 border border-transparent rounded-3xl shadow-sm text-sm font-semibold focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 focus:outline-none">8문항 버전 <p className="text-center text-xs font-light">(공사 중)</p></Link >
+        <Link href="/eight" className="mt-5 bg-red-500 hover:bg-red-600 text-white py-2 px-4 border border-transparent rounded-3xl shadow-sm text-sm font-semibold focus:ring-2 focus:ring-offset-2 focus:ring-red-500 focus:outline-none">8문항 버전</Link >
       </div>
     </div>
   );
