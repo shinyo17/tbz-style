@@ -171,10 +171,10 @@ export default function Six() {
                                                 [[1, "상연"], [2, "제이콥"], [3, "영훈"], [4, "현재"], [5, "주연"], [6, "케빈"], [7, "뉴"], [8, "큐"], [9, "주학년"], [10, "선우"], [11, "에릭"]].map((value, i) => (
                                                     <button key={i} onClick={() => {
                                                         setShowChoiaeModal(false)
-                                                        setChoiaeMemberImg(`/images/tbz-${value[0]}.jpeg`)
+                                                        setChoiaeMemberImg(`/images/tbz-${value[0]}.JPG`)
                                                         setChoiaeMemberName(`${value[1]}`)
                                                     }} className="flex flex-col items-center p-4 space-y-2 cursor-pointer justify-center">
-                                                        <img className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.jpeg`} />
+                                                        <img className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.JPG`} />
                                                         <p className="text-gray-900 text-sm font-semibold">{`${value[1]}`}</p>
                                                     </button>
                                                 ))
@@ -206,10 +206,10 @@ export default function Six() {
                                                 [[1, "상연"], [2, "제이콥"], [3, "영훈"], [4, "현재"], [5, "주연"], [6, "케빈"], [7, "뉴"], [8, "큐"], [9, "주학년"], [10, "선우"], [11, "에릭"]].map((value, i) => (
                                                     <button key={i} onClick={() => {
                                                         setShowChaaeModal(false)
-                                                        setChaaeMemberImg(`/images/tbz-${value[0]}.jpeg`)
+                                                        setChaaeMemberImg(`/images/tbz-${value[0]}.JPG`)
                                                         setChaaeMemberName(`${value[1]}`)
                                                     }} className="flex flex-col items-center p-4 space-y-2 cursor-pointer justify-center">
-                                                        <img className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.jpeg`} />
+                                                        <img className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.JPG`} />
                                                         <p className="text-gray-900 text-sm font-semibold">{`${value[1]}`}</p>
                                                     </button>
                                                 ))
@@ -241,10 +241,10 @@ export default function Six() {
                                                 [[1, "상연"], [2, "제이콥"], [3, "영훈"], [4, "현재"], [5, "주연"], [6, "케빈"], [7, "뉴"], [8, "큐"], [9, "주학년"], [10, "선우"], [11, "에릭"]].map((value, i) => (
                                                     <button key={i} onClick={() => {
                                                         setShowFriendModal(false)
-                                                        setFriendMemberImg(`/images/tbz-${value[0]}.jpeg`)
+                                                        setFriendMemberImg(`/images/tbz-${value[0]}.JPG`)
                                                         setFriendMemberName(`${value[1]}`)
                                                     }} className="flex flex-col items-center p-4 space-y-2 cursor-pointer justify-center">
-                                                        <img className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.jpeg`} />
+                                                        <img className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.JPG`} />
                                                         <p className="text-gray-900 text-sm font-semibold">{`${value[1]}`}</p>
                                                     </button>
                                                 ))
@@ -276,10 +276,10 @@ export default function Six() {
                                                 [[1, "상연"], [2, "제이콥"], [3, "영훈"], [4, "현재"], [5, "주연"], [6, "케빈"], [7, "뉴"], [8, "큐"], [9, "주학년"], [10, "선우"], [11, "에릭"]].map((value, i) => (
                                                     <button key={i} onClick={() => {
                                                         setShowCoupleModal(false)
-                                                        setCoupleMemberImg(`/images/tbz-${value[0]}.jpeg`)
+                                                        setCoupleMemberImg(`/images/tbz-${value[0]}.JPG`)
                                                         setCoupleMemberName(`${value[1]}`)
                                                     }} className="flex flex-col items-center p-4 space-y-2 cursor-pointer justify-center">
-                                                        <img className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.jpeg`} />
+                                                        <img className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.JPG`} />
                                                         <p className="text-gray-900 text-sm font-semibold">{`${value[1]}`}</p>
                                                     </button>
                                                 ))
@@ -311,10 +311,10 @@ export default function Six() {
                                                 [[1, "상연"], [2, "제이콥"], [3, "영훈"], [4, "현재"], [5, "주연"], [6, "케빈"], [7, "뉴"], [8, "큐"], [9, "주학년"], [10, "선우"], [11, "에릭"]].map((value, i) => (
                                                     <button key={i} onClick={() => {
                                                         setShowMarriageModal(false)
-                                                        setMarriageMemberImg(`/images/tbz-${value[0]}.jpeg`)
+                                                        setMarriageMemberImg(`/images/tbz-${value[0]}.JPG`)
                                                         setMarriageMemberName(`${value[1]}`)
                                                     }} className="flex flex-col items-center p-4 space-y-2 cursor-pointer justify-center">
-                                                        <img className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.jpeg`} />
+                                                        <img className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.JPG`} />
                                                         <p className="text-gray-900 text-sm font-semibold">{`${value[1]}`}</p>
                                                     </button>
                                                 ))
@@ -346,10 +346,10 @@ export default function Six() {
                                                 [[1, "상연"], [2, "제이콥"], [3, "영훈"], [4, "현재"], [5, "주연"], [6, "케빈"], [7, "뉴"], [8, "큐"], [9, "주학년"], [10, "선우"], [11, "에릭"]].map((value, i) => (
                                                     <button key={i} onClick={() => {
                                                         setShowChildModal(false)
-                                                        setChildMemberImg(`/images/tbz-${value[0]}.jpeg`)
+                                                        setChildMemberImg(`/images/tbz-${value[0]}.JPG`)
                                                         setChildMemberName(`${value[1]}`)
                                                     }} className="flex flex-col items-center p-4 space-y-2 cursor-pointer justify-center">
-                                                        <img className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.jpeg`} />
+                                                        <img className="object-cover object-center rounded-md aspect-square" src={`/images/tbz-${value[0]}.JPG`} />
                                                         <p className="text-gray-900 text-sm font-semibold">{`${value[1]}`}</p>
                                                     </button>
                                                 ))
