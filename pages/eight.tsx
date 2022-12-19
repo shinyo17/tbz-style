@@ -410,7 +410,7 @@ export default function Eight() {
                                 <div className="mt-3 sm:flex">
                                     <div className="mt-2 text-start sm:ml-4 sm:text-left">
                                         <h4 className="text-lg font-medium text-gray-800">
-                                            육아
+                                            성격
                                         </h4>
                                         <div className="grid grid-cols-3">
                                             {
