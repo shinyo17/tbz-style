@@ -1,4 +1,4 @@
-## **더보이즈 취향표**
+# 더보이즈 취향표
 #### [사이트 링크](https://tbz-style.vercel.app/)
 ---
 Flutter Web으로 제작했던 [세븐틴 취향표](https://svt-style.web.app/)
@@ -17,3 +17,9 @@ Flutter Web으로 제작했던 [세븐틴 취향표](https://svt-style.web.app/)
 |다운로드 결과|
 |---|
 |![tbz-style (12)](https://user-images.githubusercontent.com/63589031/209436707-8d56fef5-6788-427d-ab9d-9153b012ce34.png)|
+
+## 트위터 반응
+---
+|트위터 게시물 반응 - 세븐틴|트위터 게시물 반응 - 더보이즈|
+|---|---|
+|<img width="378" alt="스크린샷 2022-12-24 오후 9 49 22" src="https://user-images.githubusercontent.com/63589031/209436978-d4caeb21-b536-4b2a-94cf-f7bcdfe3b4b5.png">|<img width="374" alt="스크린샷 2022-12-24 오후 9 47 32" src="https://user-images.githubusercontent.com/63589031/209436861-abb353f7-81a1-48a2-8323-50eb812209e6.png">|
